@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robyn — Meet your life OS</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar section start -->
+    <section class="navbar_hero_main">
+        <nav class="heading-navbar">
+            <!-- <h1 class="gradient-text">Robyn</h1> -->
+            <a href="index.html" class="site-logo">
+                <img src="assets/footer-logo.png" alt="Robyn Logo" />
+            </a>
+            <button class="get-started">Get Started</button>
+        </nav>
+        <div class="container">
+            <div class="main-hero">
+                <div class="">
+                    <h1 class="main-hero-heading">Meet Robyn: <br> your life OS</h1>
+                    <p class="main-hero-paragraph">The world's first relational AI, built to know you and grow with you.
+                        <br> Be unforgettable.
+                    </p>
+                    <button class="heading-navbar-button">Try Robyn <i
+                            class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div>
+                    <div class="scene-wrap">
+                        <div class="scene" id="scene">
+
+                            <!-- Chat bubble -->
+                            <div class="f-chat">
+                                <div class="f-chat__av">
+                                    <!-- <svg viewBox="0 0 60 68" width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                                        <ellipse cx="30" cy="43" rx="15" ry="17" fill="#c47fd0" />
+                                        <ellipse cx="30" cy="50" rx="10" ry="10" fill="#e8b4f0" />
+                                        <circle cx="30" cy="23" r="14" fill="#c47fd0" />
+                                        <ellipse cx="25" cy="11" rx="4" ry="7" fill="#a855b8"
+                                            transform="rotate(-15 25 11)" />
+                                        <ellipse cx="30" cy="9" rx="4" ry="8" fill="#c47fd0" />
+                                        <ellipse cx="35" cy="11" rx="3.5" ry="6" fill="#a855b8"
+                                            transform="rotate(15 35 11)" />
+                                        <ellipse cx="17" cy="45" rx="6" ry="10" fill="#a855b8"
+                                            transform="rotate(-20 17 45)" />
+                                        <ellipse cx="43" cy="39" rx="6" ry="10" fill="#a855b8"
+                                            transform="rotate(32 43 39)" />
+                                        <circle cx="25" cy="21" r="5" fill="white" />
+                                        <circle cx="35" cy="21" r="5" fill="white" />
+                                        <circle cx="26" cy="22" r="2.5" fill="#1a0800" />
+                                        <circle cx="36" cy="22" r="2.5" fill="#1a0800" />
+                                        <circle cx="27" cy="20" r="1.1" fill="white" />
+                                        <circle cx="37" cy="20" r="1.1" fill="white" />
+                                        <ellipse cx="30" cy="28" rx="5" ry="3.5" fill="#f08030" />
+                                        <line x1="25.5" y1="28" x2="34.5" y2="28" stroke="#c86020" stroke-width="1" />
+                                        <ellipse cx="23" cy="25" rx="4" ry="2.5" fill="rgba(240,100,100,.3)" />
+                                        <ellipse cx="37" cy="25" rx="4" ry="2.5" fill="rgba(240,100,100,.3)" />
+                                    </svg> -->
+                                    <img width="" src="/assets/img/lloo.png" alt="">
+                                </div>
+                                <p class="f-chat__text">Yesterday you were worried about the meetup. How did your talk
+                                    with Ash go?</p>
+                            </div>
+
+                            <!-- Bird -->
+                            <!-- <svg class="f-bird" viewBox="0 0 130 148" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="65" cy="98" rx="35" ry="37" fill="#c47fd0" />
+                                <ellipse cx="65" cy="110" rx="23" ry="23" fill="#e8b4f0" />
+                                <circle cx="65" cy="56" r="29" fill="#c47fd0" />
+                                <ellipse cx="55" cy="30" rx="7" ry="12" fill="#a855b8" transform="rotate(-18 55 30)" />
+                                <ellipse cx="65" cy="26" rx="7" ry="14" fill="#c47fd0" />
+                                <ellipse cx="75" cy="30" rx="6" ry="11" fill="#a855b8" transform="rotate(18 75 30)" />
+                                <ellipse cx="31" cy="102" rx="13" ry="21" fill="#a855b8"
+                                    transform="rotate(-22 31 102)" />
+                                <ellipse cx="100" cy="90" rx="13" ry="21" fill="#a855b8"
+                                    transform="rotate(38 100 90)" />
+                                <circle cx="54" cy="53" r="9.5" fill="white" />
+                                <circle cx="76" cy="53" r="9.5" fill="white" />
+                                <circle cx="56" cy="55" r="5" fill="#1a0800" />
+                                <circle cx="78" cy="55" r="5" fill="#1a0800" />
+                                <circle cx="58" cy="52" r="2" fill="white" />
+                                <circle cx="80" cy="52" r="2" fill="white" />
+                                <ellipse cx="65" cy="66" rx="8" ry="5.5" fill="#f08030" />
+                                <line x1="57.5" y1="66" x2="72.5" y2="66" stroke="#c86020" stroke-width="1.5" />
+                                <ellipse cx="46" cy="62" rx="6.5" ry="4" fill="rgba(240,100,100,.32)" />
+                                <ellipse cx="84" cy="62" rx="6.5" ry="4" fill="rgba(240,100,100,.32)" />
+                                <line x1="52" y1="132" x2="45" y2="141" stroke="#f08030" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <line x1="52" y1="132" x2="52" y2="142" stroke="#f08030" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <line x1="52" y1="132" x2="59" y2="141" stroke="#f08030" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <line x1="78" y1="132" x2="71" y2="141" stroke="#f08030" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <line x1="78" y1="132" x2="78" y2="142" stroke="#f08030" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <line x1="78" y1="132" x2="85" y2="141" stroke="#f08030" stroke-width="3"
+                                    stroke-linecap="round" />
+                            </svg> -->
+
+                            <!-- Mind map -->
+                            <div class="f-mind">
+                                <p class="f-mind__title">What's top of mind for you</p>
+                                <div class="mbar"><span class="mbar__lbl">Connection</span>
+                                    <div class="mbar__track">
+                                        <div class="mbar__fill" style="width:68%"></div>
+                                    </div><span class="mbar__pct">68%</span>
+                                </div>
+                                <div class="mbar"><span class="mbar__lbl">Growth</span>
+                                    <div class="mbar__track">
+                                        <div class="mbar__fill" style="width:12%"></div>
+                                    </div><span class="mbar__pct">12%</span>
+                                </div>
+                                <div class="mbar"><span class="mbar__lbl">Interests</span>
+                                    <div class="mbar__track">
+                                        <div class="mbar__fill" style="width:20%"></div>
+                                    </div><span class="mbar__pct">20%</span>
+                                </div>
+                            </div>
+
+                            <!-- Mic pill -->
+                            <div class="f-mic">
+                                <div class="f-mic__icon">
+                                    <svg width="18" height="22" viewBox="0 0 18 22" fill="none">
+                                        <rect x="5" y="1" width="8" height="13" rx="4" fill="white" />
+                                        <path d="M1 10a8 8 0 0016 0" stroke="white" stroke-width="1.8"
+                                            stroke-linecap="round" fill="none" />
+                                        <line x1="9" y1="18" x2="9" y2="21" stroke="white" stroke-width="1.8"
+                                            stroke-linecap="round" />
+                                        <line x1="6" y1="21" x2="12" y2="21" stroke="white" stroke-width="1.8"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                                <span class="f-mic__text">Let's untangle those thoughts</span>
+                            </div>
+
+                            <!-- PHONE -->
+                            <div class="phone">
+                                <div class="nav">
+                                    <span class="nav__menu">&#9776;</span>
+                                    <div class="nav__icons">
+                                        <div class="ni ni--on">
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                                <path d="M3 9.5L11 3l8 6.5V19a1 1 0 01-1 1H6a1 1 0 01-1-1v-4h4v4"
+                                                    stroke="#f5c070" stroke-width="1.8" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="ni ni--off">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path d="M2 4a2 2 0 012-2h12a2 2 0 012 2v9a2 2 0 01-2 2H6l-4 3V4z"
+                                                    stroke="rgba(60,18,4,.5)" stroke-width="1.7" />
+                                            </svg>
+                                        </div>
+                                        <div class="ni ni--off">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none">
+                                                <circle cx="9" cy="6" r="4" stroke="rgba(60,18,4,.5)"
+                                                    stroke-width="1.7" />
+                                                <path d="M1 18c0-4 3.6-7 8-7" stroke="rgba(60,18,4,.5)"
+                                                    stroke-width="1.7" stroke-linecap="round" />
+                                                <line x1="17" y1="10" x2="17" y2="18" stroke="rgba(60,18,4,.5)"
+                                                    stroke-width="1.7" stroke-linecap="round" />
+                                                <line x1="13" y1="14" x2="21" y2="14" stroke="rgba(60,18,4,.5)"
+                                                    stroke-width="1.7" stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- welcome text -->
+                                <div class="phone-welcome">
+                                    <h1 class="welcome">Welcome<br />home, Jenny!</h1>
+                                    <p class="welcome-sub">Your thoughts belong here.</p>
+                                </div>
+                                <!-- input bar -->
+                                <div class="phone-input">
+                                    <div class="pi-plus">+</div>
+                                    <span class="pi-text">Tell me something <em>new</em> about myself</span>
+                                    <div class="pi-btns">
+                                        <div class="pi-btn">
+                                            <svg width="16" height="18" viewBox="0 0 16 18" fill="none">
+                                                <rect x="4" y="1" width="8" height="10" rx="4"
+                                                    fill="rgba(60,18,4,.5)" />
+                                                <path d="M1 8a7 7 0 0014 0" stroke="rgba(60,18,4,.5)" stroke-width="1.6"
+                                                    stroke-linecap="round" />
+                                                <line x1="8" y1="15" x2="8" y2="17" stroke="rgba(60,18,4,.5)"
+                                                    stroke-width="1.6" stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="pi-btn">
+                                            <svg width="18" height="12" viewBox="0 0 18 12" fill="none">
+                                                <path d="M1 6 Q3 1 5 6 Q7 11 9 6 Q11 1 13 6 Q15 11 17 6"
+                                                    stroke="rgba(60,18,4,.5)" stroke-width="1.7"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="homebar"></div>
+                            </div>
+
+                            <!-- Prompt cards — outside phone so 4th bleeds right -->
+                            <div class="prompts">
+                                <button class="pcard pcard--a">Help me grow,<br />not perform</button>
+                                <button class="pcard pcard--b">I need to make a big decision</button>
+                                <button class="pcard pcard--c">Think through something with me</button>
+                                <button class="pcard pcard--d">Help me build better habits</button>
+                            </div>
+
+                            <!-- Stats card -->
+                            <div class="f-stats">
+                                <p class="f-stats__title">How you're feeling these days</p>
+                                <div class="gauge">
+                                    <svg viewBox="0 0 220 128" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <linearGradient id="gg" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                <stop offset="0%" stop-color="#d85c16" />
+                                                <stop offset="55%" stop-color="#f29040" />
+                                                <stop offset="100%" stop-color="#fac060" />
+                                            </linearGradient>
+                                        </defs>
+                                        <path class="g-track" d="M 14,128 A 96,96 0 0,1 206,128" />
+                                        <path class="g-fill" d="M 14,128 A 96,96 0 0,1 206,128" />
+                                    </svg>
+                                    <div class="gauge__label">
+                                        <span class="gauge__joy">Joy</span>
+                                        <span class="gauge__num">87</span>
+                                    </div>
+                                </div>
+                                <div class="stat-row">
+                                    <div class="sc">
+                                        <div class="sc__n">51</div><span class="sc__l">Clarity</span>
+                                    </div>
+                                    <div class="sc">
+                                        <div class="sc__n">65</div><span class="sc__l">Focus</span>
+                                    </div>
+                                    <div class="sc">
+                                        <div class="sc__n">40</div><span class="sc__l">Resilience</span>
+                                    </div>
+                                    <div class="sc">
+                                        <div class="sc__n">72</div><span class="sc__l">Enthusiasm</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /scene -->
+                    </div><!-- /scene-wrap -->
+                </div>
+                <!-- Why Robyn part start -->
+            </div>
+        </div>
+    </section>
+    <!-- why Robyn section start -->
+    <section class="container">
+        <div class="why_robyn">
+            <span class=""></span>
+            <h2>Why Robyn</h2>
+        </div>
+        <div class="hr_line"></div>
+        <p class="why_robyn_p"><span>Robyn remembers.</span> Modeled after the human brain, Robyn’s memory is
+            custom-built to be dynamic and evolving, mapped directly from neurological principles. Because you deserve
+            to be unforgettable.</p>
+    </section>
+
+    <!-- Featured section start -->
+    <section class="">
+        <div class="container featured_section">
+            <h1>Featured in:</h1>
+            <div class="Featured_grid">
+                <div>
+                    <img src="/assets/img/Forbes 2.png" alt="">
+                </div>
+                <div>
+                    <img src="/assets/img/sys.png" alt="">
+                </div>
+                <div>
+                    <img src="/assets/img/tc2.png" alt="">
+                </div>
+                <div>
+                    <img src="/assets/img/tc4.png" alt="">
+                </div>
+                <div>
+                    <img src="/assets/img/tc5.png" alt="">
+                </div>
+                <div>
+                    <img src="/assets/img/6.png" alt="">
+                </div>
+                <div>
+                    <img src="/assets/img/axio.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="real-impact-section">
+        <div class="container real-mpact">
+            <div class="why_robyn">
+                <span class=""></span>
+                <h2>Real Impact</h2>
+            </div>
+            <h1>Join 40k+ people across 170 <br> countries and counting</h1>
+
+            <!-- Carousel wrapper -->
+            <div class="join_carousel">
+                <div class="join_carousel_track" id="joinTrack">
+
+                    <div class="join_card">
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p>"I am amazed how insightful the app is without sugar coating. Robyn asks the right questions,
+                            at the right time, in the right way. It sees you for who you are in all the messiness. It
+                            still roots for you."</p>
+                    </div>
+
+                    <div class="join_card">
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                        <p>"I spent the last days taking to Robyn and it feels so different from any other AI. It's
+                            calling me out on my sh*t, and really does have emotional intelligence. Sometimes it even
+                            told me 'I am not responding to this because you are doing your avoidant thing'. WOW."</p>
+                    </div>
+
+                    <div class="join_card">
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                        <p>"In only two days of using Robyn, I have learned more about my hidden fears and patterns than
+                            in 2 years of conversations with friends, therapists, coaches, lawyers, mediators, family
+                            and AI."</p>
+                    </div>
+
+                    <div class="join_card">
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                        <p>"Robyn is the only product I would recommend to the elite, professional athletes and coaches
+                            I work with. Many of them have told me how it has helped them on and off the field."</p>
+                    </div>
+
+                    <div class="join_card">
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                        <p>"I am amazed how insightful the app is without sugar coating. Robyn asks the right questions,
+                            at the right time, in the right way. It sees you for who you are in all the messiness. It
+                            still roots for you."</p>
+                    </div>
+
+                    <div class="join_card">
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></span>
+                        <p>"In only two days of using Robyn, I have learned more about my hidden fears and patterns than
+                            in 2 years of conversations with friends, therapists, coaches, lawyers, mediators, family
+                            and AI."</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Nav buttons -->
+            <div class="join_nav">
+                <button id="joinPrev">←</button>
+                <button id="joinNext">→</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Story Section start -->
+    <section class="story container">
+        <div class="story__inner">
+
+            <!-- LEFT -->
+            <div class="story__left">
+
+                <div class="story__tag">
+                    <div class="story__tag-dot"></div>
+                    <span class="story__tag-text">Our Story</span>
+                </div>
+
+                <h1 class="story__h1">Deeply human</h1>
+
+                <div class="story__body">
+                    <p>Robyn was founded by Dr. Jenny Shao, a Harvard-trained physician and surgeon with 7 years of
+                        experience in neuroscience research, including 3 years of research on the biological basis of
+                        memory with Nobel Laureate Eric Kandel, which served as the ground work for Robyn's relational
+                        memory architecture.</p>
+                    <p>Jenny left her lifelong career in medicine after witnessing a deeper epidemic in her patients —
+                        disconnection. She built Robyn to be the world's first relational AI to bridge this gap and
+                        empower the humans of the world to be truly seen and known.</p>
+                    <p>Her and her team blend neuroscience, AI, and design to build technology that makes people more
+                        human, not less.</p>
+                </div>
+
+                <a href="#" class="story__cta">
+                    Join Our Team <span class="story__cta-arrow">→</span>
+                </a>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="story__right">
+
+                <div class="story__img-wrap">
+                    <img src="/assets/img/js.png" alt="Dr. Jenny Shao, Founder & CEO" />
+                </div>
+
+                <div class="story__quote">
+                    <p class="story__quote-text">"We have a biological need to be seen and known. We deserve technology
+                        that honors that — we built Robyn to celebrate the beautiful, messy, and singular experience of
+                        being human."</p>
+                    <div class="story__cite">
+                        <span class="story__cite-name">Dr. Jenny Shao, MD</span>
+                        <span class="story__cite-role">Founder &amp; CEO</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Team Section Start -->
+    <section class="team container">
+        <div class="team__inner">
+            <!-- Tag -->
+            <div class="team__tag">
+                <div class="team__tag-dot"></div>
+                <span class="team__tag-text">Our Team</span>
+            </div>
+
+            <!-- Heading -->
+            <h1 class="team__h1">The people building Robyn</h1>
+
+            <!-- Sub -->
+            <p class="team__sub">We're the people behind Robyn. Each of us comes from different backgrounds in
+                neuroscience, product, design, storytelling, engineering, and psychology, but we are here for the same
+                reason, to make technology deeply human again.</p>
+
+            <!-- Cards -->
+            <div class="team__cards">
+
+                <!-- Member 1 -->
+                <div class="tmem">
+                    <img class="tmem__img" src="/assets/img/1.png" alt="Dr. Jenny Shao" />
+                    <div class="tmem__overlay"></div>
+                    <div class="tmem__info">
+                        <span class="tmem__name">Dr. Jenny Shao, MD</span>
+                        <span class="tmem__role">Founder &amp; CEO</span>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="tmem">
+                    <img class="tmem__img" src="/assets/img/2.png" alt="Keaton Crandall" />
+                    <div class="tmem__overlay"></div>
+                    <div class="tmem__info">
+                        <span class="tmem__name">Keaton Crandall</span>
+                        <span class="tmem__role">ML/Backend Engineer</span>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="tmem">
+                    <img class="tmem__img" src="/assets/img/3.png" alt="Ivan Matković" />
+                    <div class="tmem__overlay"></div>
+                    <div class="tmem__info">
+                        <span class="tmem__name">Ivan Matković</span>
+                        <span class="tmem__role">Lead iOS Engineer</span>
+                    </div>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="tmem">
+                    <img class="tmem__img" src="/assets/img/4.png" alt="Dino Čatalnac" />
+                    <div class="tmem__overlay"></div>
+                    <div class="tmem__info">
+                        <span class="tmem__name">Dino Čatalnac</span>
+                        <span class="tmem__role">Senior iOS Engineer</span>
+                    </div>
+                </div>
+
+                <!-- Member 5 -->
+                <div class="tmem">
+                    <img class="tmem__img" src="/assets/img/5.png" alt="Lucas Belvedere" />
+                    <div class="tmem__overlay"></div>
+                    <div class="tmem__info">
+                        <span class="tmem__name">Lucas Belvedere</span>
+                        <span class="tmem__role">QA Specialist</span>
+                    </div>
+                </div>
+
+                <!-- Member 6 -->
+                <div class="tmem">
+                    <img class="tmem__img" src="/assets/img/t6.png" alt="Julie Ramsay" />
+                    <div class="tmem__overlay"></div>
+                    <div class="tmem__info">
+                        <span class="tmem__name">Julie Ramsay</span>
+                        <span class="tmem__role">Product Designer</span>
+                    </div>
+                </div>
+
+                <!-- CTA card -->
+                <div class="tmem--cta">
+                    <a href="#" class="tmem__cta-btn">Join Our Team →</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Mission section start -->
+    <section class="mission container">
+        <div class="mission__inner">
+
+            <!-- LEFT -->
+            <div class="mission__left">
+                <div class="mission__tag">
+                    <div class="mission__tag-dot"></div>
+                    <span class="mission__tag-text">Our Mission</span>
+                </div>
+                <h1 class="mission__h1">To empower billions of people to come more alive</h1>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="mission__right">
+                <p class="mission__body">Too often, technology builds for an abstract notion of humanity. We're building
+                    for the actual humans that make up humanity, the ones figuring it out, hoping, becoming, living.
+                    Robyn was built to be a deeply human AI with persistent, human-like memory that empowers human
+                    connection.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <section>
+        <footer class="site-footer">
+            <div class="site-container">
+                <div class="footer-content-grid">
+                    <!-- Brand Identity -->
+                    <div class="footer-intro">
+                        <a href="index.html" class="site-logo">
+                            <img src="assets/footer-logo.png" alt="Robyn Logo" />
+                        </a>
+                        <p>Meet Robyn, the world’s most emotionally intelligent AI. It’s your space to be deeply and
+                            unapologetically human.</p>
+                        <div class="newsletter-subscribe">
+                            <input class="input-bg" type="email" placeholder="Email" />
+                            <button type="button">Join Newsletter</button>
+                        </div>
+                    </div>
+
+                    <!-- Corporate Links -->
+                    <div class="footer-link-group">
+                        <h4 class="link-group-title">Company</h4>
+                        <ul class="footer-nav-list">
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Our Team</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Helpful Resources -->
+                    <div class="footer-link-group">
+                        <h4 class="link-group-title">Resources</h4>
+                        <ul class="footer-nav-list">
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+
+                        <div class="app-badge">
+                            <a href="#"><img src="assets/apple.png" alt="App Store" /></a>
+                            <div class="app-badge-text">
+                                <p>Download on the</p>
+                                <h4>App Store</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Bottom Copyright -->
+                <div class="copyright-bar">
+                    <div class="footer-social-links">
+                        <a href="#"><img src="assets/ins.png" alt="Instagram"></a>
+                        <a href="#"><img src="assets/tiktok.png" alt="Tiktok"></a>
+                        <a href="#"><img src="assets/discord.png" alt="Discord"></a>
+                    </div>
+                    <p class="copyright-text">All Rights Reserved © Robyn AI, Inc.</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- script file add -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>

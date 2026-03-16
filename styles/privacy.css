@@ -1,0 +1,252 @@
+/* Global Design Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    color: #1a151a;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: rgb(250, 239, 230);
+}
+
+/* The Main Container with your image/gradient */
+.privacy-hero-wrapper {
+    background: linear-gradient(to right, #240a1e, #612c4b, #c5938a);
+    /* OR if using your image file: */
+    /* background: url('../images/Rectangle 1321322266.png') no-repeat center center; */
+    /* background-size: cover; */
+    max-height: 390px;
+    /* Adjust height to match screenshot */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* This pushes nav to top, title to bottom */
+    padding-bottom: 60px;
+    /* Space at the very bottom */
+}
+
+/* Navigation Styles */
+.robyn-navigation {
+    padding-top: 30px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-button {
+    background-color: #3b142d;
+    /* Matching the dark button in screenshot */
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+/* Title Styles */
+.privacy-main-title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    /* Responsive sizing */
+    color: #fffdec;
+    /* The off-white color from your image */
+    margin: 0;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* Ensure container takes full width */
+.site-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+/* Privacy Policy Main Content Typography */
+.privacy-content h3,
+.privacy-content h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.privacy-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* Site Footer  start*/
+.site-footer {
+    background: #90476514;
+    max-width: 1331px;
+    margin: 100px auto 40px;
+    padding: 34px 40px;
+    border-radius: 32px;
+}
+
+.footer-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 181px 181px;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.footer-intro .site-logo img {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-intro p {
+    font-size: 16px;
+    color: #665566;
+    margin-bottom: 24px;
+    max-width: 400px;
+}
+
+.newsletter-subscribe {
+    display: flex;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    max-width: 400px;
+    height: 38px;
+}
+
+.newsletter-subscribe input {
+    background: transparent;
+    border: none;
+    padding: 10px 16px;
+    outline: none;
+    flex-grow: 1;
+    font-family: inherit;
+    height: 38px;
+}
+
+.newsletter-subscribe input::placeholder {
+    color: #665566;
+    font-size: 17px;
+}
+
+.newsletter-subscribe button {
+    background: #4a1a4a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.link-group-title {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-nav-list {
+    list-style: none;
+    font-size: 16px;
+}
+
+.footer-nav-list li {
+    margin-bottom: 14px;
+}
+
+.footer-nav-list li a {
+    color: #665566;
+    text-decoration: none;
+}
+
+.footer-nav-list li a:hover {
+    color: #4a1a4a;
+}
+
+.app-badge {
+    display: inline-flex;
+    width: fit-content;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    border: 1.5px solid #665566;
+    padding: 5px 12px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.app-badge-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.app-badge-text p {
+    font-size: 12px;
+    color: #665566;
+    margin: 0;
+}
+
+.app-badge-text h4 {
+    font-size: 16px;
+    color: #2C0425;
+    margin: 0;
+}
+
+.app-badge img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.copyright-bar {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright-text {
+    font-size: 12px;
+    color: #665566;
+}
+
+/* Responsiveness */
+@media (max-width: 991px) {
+
+    .careers-intro-wrapper,
+    .footer-content-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .robyn-navigation {
+        margin-top: 24px;
+        margin-bottom: 60px;
+    }
+
+    .careers-main-title {
+        font-size: 60px;
+    }
+}

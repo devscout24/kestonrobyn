@@ -1,0 +1,43 @@
+/* Terms & Conditions Content Styles */
+.terms-content {
+    background-color: rgb(250, 239, 230); /* Same inherited background */
+    padding: 60px 0 100px;
+}
+
+.terms-text-content {
+    max-width: 1331px;
+}
+
+.terms-text-content h3,
+.terms-text-content h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #2C0425;
+}
+
+.terms-text-content h3:first-child {
+    margin-top: 0;
+}
+
+.terms-text-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #1a151a;
+    line-height: 1.6;
+}
+
+.terms-text-content ul {
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+.terms-text-content li {
+    font-size: 16px;
+    color: #1a151a;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,368 @@
+/* Global Design Overrides */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .careers {
+    font-family: 'Outfit', sans-serif;
+    background-size: 100% 619px;
+    /* background-color: #fdf8f4; */
+    color: #1a151a;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: rgb(250, 239, 230)
+}
+
+.banner-career {
+    background: linear-gradient(225deg, #F9C69E 0%, #642851 60%, #2C0425 100%) no-repeat
+}
+
+/* Updated Site Container */
+.site-container {
+    max-width: 1331px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+
+/* Header & Navigation  start*/
+.robyn-navigation {
+    padding-top: 54px;
+    margin-bottom: 105px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo img {
+    width: 89px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.primary-button {
+    background: #4a1a4a;
+    /* Keeping a fallback accent */
+    color: white;
+    width: 176px;
+    padding: 10px 8px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.primary-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* Header & Navigation  end*/
+
+/* Careers Banner Hero start */
+.careers-banner {
+    height: calc(619px - 213px);
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding-bottom: 95px;
+}
+
+.careers-main-title {
+    font-size: 80px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+}
+
+.careers-intro-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.395);
+    padding-top: 50px;
+}
+
+.careers-sub-heading {
+    font-size: clamp(24px, 4vw, 40px);
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.careers-description {
+    font-size: 16px;
+    color: #FAEFE6;
+}
+
+.careers-description p {
+    margin-bottom: 24px;
+}
+
+.careers-description a {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Careers Banner Hero end */
+
+
+/* Available Job Roles start */
+.open-position {
+    padding-top: 80px;
+    padding-bottom: 373px;
+}
+
+.open-position .role-details {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.open-position .job-positions-heading {
+    font-size: 80px;
+    font-weight: 400;
+    color: #2C0425;
+    margin-bottom: 60px;
+    line-height: 1.1;
+}
+
+.open-position .open-roles-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 60px;
+}
+
+.open-position .role-entry {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.open-position .role-entry:hover {
+    transform: translateX(5px);
+}
+
+.open-position .role-title {
+    font-size: 22px;
+    font-weight: 800;
+    color: #2C0425;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.open-position .job-positions-location {
+    font-size: 16px;
+    color: #665566;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Gap between icon and text */
+    margin-top: 10px;
+    /* Gap between title and location */
+}
+
+.open-position .job-positions-location img {
+    width: 15px;
+    height: 21px;
+    object-fit: contain;
+}
+
+.open-position .role-navigation-icon {
+    font-size: 20px;
+    color: #665566;
+    opacity: 0.5;
+}
+
+/* Careers Banner Hero end */
+
+
+/* Site Footer */
+.site-footer {
+    background: #90476514;
+    max-width: 1331px;
+    margin: 100px auto 40px;
+    padding: 34px 40px;
+    border-radius: 32px;
+}
+
+.footer-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 181px 181px;
+    /* Left takes full space, others take 181px each (total 362px) */
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.footer-intro .site-logo img {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-intro p {
+    font-size: 16px;
+    color: #665566;
+    margin-bottom: 24px;
+    max-width: 400px;
+}
+
+.newsletter-subscribe {
+    display: flex;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    max-width: 400px;
+    height: 38px;
+}
+
+.newsletter-subscribe input {
+    background: transparent;
+    border: none;
+    padding: 10px 16px;
+    outline: none;
+    flex-grow: 1;
+    font-family: inherit;
+    height: 38px;
+}
+
+.newsletter-subscribe input::placeholder {
+    color: #665566;
+    font-size: 17px;
+
+}
+
+.newsletter-subscribe button {
+    background: #4a1a4a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.link-group-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-nav-list {
+    list-style: none;
+    font-size: 16px;
+}
+
+.footer-nav-list li {
+    margin-bottom: 14px;
+}
+
+.footer-nav-list li a {
+    font-size: 16px;
+    color: #665566;
+    text-decoration: none;
+}
+
+.footer-nav-list li a:hover {
+    color: #4a1a4a;
+    text-decoration: none;
+}
+
+.app-badge {
+    display: inline-flex;
+    width: fit-content;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    border: 1.5px solid #665566;
+    padding: 5px 12px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.app-badge-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    line-height: 1.2;
+}
+
+.app-badge-text p {
+    font-size: 12px;
+    color: #665566;
+    line-height: 1;
+    margin: 0;
+}
+
+.app-badge-text h4 {
+    font-size: 16px;
+    color: #2C0425;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.app-badge img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.app-badge img:hover {
+    transform: scale(1.1);
+}
+
+
+.copyright-bar {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-links img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.copyright-text {
+    font-size: 12px;
+    color: #665566;
+}
+
+/* Responsiveness */
+@media (max-width: 991px) {
+
+    .careers-intro-wrapper,
+    .open-roles-list,
+    .footer-content-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .robyn-navigation {
+        margin-top: 24px;
+        margin-bottom: 60px;
+    }
+}
